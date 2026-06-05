@@ -1,0 +1,86 @@
+; ============================================================
+; Reclaimed — Test Setup Batch File
+; Drop this file in your Fallout 4 root folder (same as Fallout4.exe)
+; Open console in-game and type: bat reclaimed_test
+; ============================================================
+
+; --- God Mode + Immortal ---
+tgm
+tim
+
+; --- Carry Weight ---
+player.setav carryweight 9999
+
+; --- Caps ---
+player.additem f 50000
+
+; --- Set Level 30 (enough for perks without breaking early quests) ---
+player.setlevel 30
+
+; --- Max all SPECIAL (needed for full dialogue options via RED) ---
+player.setav strength 10
+player.setav perception 10
+player.setav endurance 10
+player.setav charisma 10
+player.setav intelligence 10
+player.setav agility 10
+player.setav luck 10
+
+; --- Local Leader 1 + 2 (required for supply lines and SS2 crafting upgrades) ---
+player.addperk 4d88d
+player.addperk 4d88e
+
+; --- Lockpicking: Novice through Master ---
+player.addperk 4d09f
+player.addperk 4d0a0
+player.addperk 4d0a1
+player.addperk 4d0a2
+
+; --- Hacking: Novice through Master ---
+player.addperk 4d09b
+player.addperk 4d09c
+player.addperk 4d09d
+player.addperk 4d09e
+
+; --- Science 1-4 (crafting + workshop mods + ITO weapons) ---
+player.addperk 1d2449
+player.addperk 1d244a
+player.addperk 1d244b
+player.addperk 1d244c
+
+; --- Lone Wanderer (useful for solo testing) ---
+player.addperk 1d2476
+
+; --- Medic 1 (fallback healing) ---
+player.addperk 4d8a5
+
+; --- Armorer 1 (for workshop/crafting checks) ---
+player.addperk 1d2453
+
+; --- Blacksmith 1 (melee weapon crafting check) ---
+player.addperk 1d2463
+
+; --- Gun Nut 1-2 (weapon mod checks including Laser Musket and CC weapons) ---
+player.addperk 1d2465
+player.addperk 1d2466
+
+; --- Useful test items ---
+; Bottlecap mines (explosion testing)
+player.additem 6b536 5
+; Stimpaks x50
+player.additem 23736 50
+; Rad-X x20 (mutation testing)
+player.additem 23742 20
+; RadAway x20
+player.additem 23740 20
+; Fusion Cores x10 (Power Armor testing)
+player.additem 75fe4 10
+
+; --- Timescale reset to default (in case it was changed) ---
+set timescale to 20
+
+; ============================================================
+; DONE. Check console for any red error lines.
+; No errors = clean load.
+; See TESTING.md in the Reclaimed GitHub repo for the full guide.
+; ============================================================

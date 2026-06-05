@@ -1,4 +1,4 @@
-# Installation Guide
+# Reclaimed — Installation Guide
 
 ## Prerequisites
 

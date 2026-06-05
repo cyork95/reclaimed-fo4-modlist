@@ -1,5 +1,5 @@
-# Fallout 4 — Vanilla Plus RPG Modlist
-### *Built on The Midnight Ride · SS2-Centric · Subversion Ending*
+# Reclaimed
+### *A Fallout 4 Modlist · Built on The Midnight Ride · SS2-Centric · Subversion Ending*
 
 > A hand-curated, stability-first modlist for a deep RPG playthrough of Fallout 4.  
 > **Not a Wabbajack list yet** — see [WABBAJACK.md](WABBAJACK.md) for the roadmap.
@@ -140,4 +140,4 @@ These mods are **incompatible** with this list and must never be installed:
 
 ---
 
-*This modlist is a personal curation project and is not affiliated with The Midnight Ride, Nexus Mods, or any individual mod author.*
+*Reclaimed is a personal curation project and is not affiliated with The Midnight Ride, Nexus Mods, or any individual mod author.*

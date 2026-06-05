@@ -1,4 +1,4 @@
-# Load Order
+# Reclaimed — Load Order
 
 This document defines the correct load order for the modlist. Follow it precisely.
 
@@ -195,7 +195,7 @@ Subversion.esp                        ← after ALL other faction mods
 ═══════════════════════════════════════
  CONFLICT RESOLUTION — ALWAYS LAST
 ═══════════════════════════════════════
-FO4_VanillaPlus_CR.esp               ← your hand-built xEdit CR patch
+Reclaimed_CR.esp                     ← your hand-built xEdit CR patch
 ```
 
 ---

@@ -1,6 +1,6 @@
-# Wabbajack Roadmap
+# Reclaimed — Wabbajack Roadmap
 
-## Can This Be a Wabbajack List?
+## Can Reclaimed Be a Wabbajack List?
 
 **Yes — but not yet.** Here is exactly what needs to happen first, and what the real challenges are.
 
